@@ -1,0 +1,51 @@
+body{
+
+    font-family:Arial;
+    background:white;
+
+}
+
+.container{
+
+    width:650px;
+    margin:20px auto;
+    background:#d8f8f8;
+    border-radius:30px;
+    text-align:center;
+    padding:20px;
+
+}
+
+img{
+
+    width:450px;
+    height:300px;
+    border-radius:50%;
+    border:2px solid #999;
+}
+
+.buttons{
+
+    margin-top:20px;
+}
+
+button{
+
+    width:120px;
+    height:40px;
+    margin:5px;
+    background:#7ec8f5;
+    border:none;
+    border-radius:20px;
+    font-size:25px;
+    color:darkred;
+    font-style:italic;
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#5fb7eb;
+
+}

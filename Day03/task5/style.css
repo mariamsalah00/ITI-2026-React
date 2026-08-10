@@ -1,0 +1,112 @@
+   body {
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .pricing-table {
+            background-color: #3b3b3b;
+            color: #ffffff;
+            text-align: center;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .pricing-table td {
+            background-color: #222222;
+        }
+
+        .title-cell {
+            color: #00bcf2;
+            font-size: 28px;
+            font-weight: normal;
+        }
+
+        .plan-header {
+            background-color: #00bcf2 ;
+            font-size: 22px;
+            padding: 10px 0;
+        }
+
+        .main-price-cell {
+            background-color: #000000;
+            padding: 30px 0;
+        }
+
+        .price-symbol {
+            font-size: 36px;
+            color: #ffffff;
+            vertical-align: top;
+        }
+
+        .price-value {
+            font-size: 48px;
+            color: #00bcf2;
+            line-height: 1;
+        }
+
+        .price-period {
+            font-size: 12px;
+            color: #aaaaaa;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .feature-label {
+            text-align: left;
+            padding-left: 15px;
+            font-size: 13px;
+            color: #cccccc;
+        }
+
+        .feature-value {
+            font-size: 13px;
+            color: #cccccc;
+        }
+
+        .feature-value strong {
+            color: #ffffff;
+        }
+
+        .icon-check {
+            color: #00bcf2;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .icon-cross {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .bottom-cell {
+            padding: 20px 0;
+        }
+
+        .bottom-price-symbol {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .bottom-price-value {
+            font-size: 24px;
+            color: #00bcf2;
+            font-weight: bold;
+        }
+
+        .btn-signup {
+            background-color: #00bcf2;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .btn-signup:hover {
+            background-color: #0099c2;
+        }

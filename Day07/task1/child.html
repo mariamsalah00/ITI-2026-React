@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <title>Advertising Window</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 20px;
+            line-height: 35px;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Welcome To Our Website</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste.</p>
+    <script>
+
+        var Counter = 0;
+        var Scroll = setInterval(function () {
+            window.scrollBy(0, 10);
+            Counter++;
+            if (Counter == 80) {
+                clearInterval(Scroll);
+                window.close();
+            }
+        }, 100);
+    </script>
+</body>
+
+</html>

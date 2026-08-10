@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:rgb(22, 134, 22);
+    --second-color:rgb(106, 56, 56);
+}
+header{
+    width:100%;
+    height: 20vh;
+    margin:1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    color: var(--main-color);
+    border-bottom: 4px dotted var(--second-color);
+    text-align: center;
+}
+header h1{
+    text-shadow: -1.5px 1px 0 var(--second-color);
+}
+header p span{
+    color: var(--second-color);
+    font-style: italic;
+}
+main{
+    width:100%;
+    height: 100vh;
+    border-bottom: 4px dotted var(--second-color);
+}
+.birds{ 
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 3em;
+    margin: 1em 0;
+}
+.birds div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    gap: 1em;
+}
+.birds img{
+    width:15em;
+    height:15em;
+    object-fit: cover;
+}
+.birds h4{
+    color: var(--second-color);
+}
+.birds p{
+    color: var(--main-color);
+}
+footer{
+    width:100%;
+    height: 20vh;
+    margin:1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+footer h2{
+    color: var(--main-color);
+}
+footer h4{
+    color: var(--second-color);
+    font-style: italic;
+}

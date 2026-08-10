@@ -1,0 +1,48 @@
+ table.main {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #222;
+        }
+
+        table.main th {
+            background: #4f7eb8;
+            color: white;
+            font-size: 15px;
+            font-weight: normal;
+            padding: 10px;
+            border-bottom: 2px solid #222;
+        }
+
+        table.main td {
+            border: 1px solid #666;
+            padding: 12px 8px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .row {
+            background: #d8e4f3;
+        }
+
+        .message {
+            background: #ffffff;
+            font-style: italic;
+            color: #777;
+            border-left: none !important;
+            border-right: none !important;
+        }
+
+        .message a {
+            color: #777;
+        }
+
+        .action {
+            background: #ffffff;
+            width: 55px;
+        }
+
+        .action a {
+            color: #777;
+            font-style: italic;
+        }

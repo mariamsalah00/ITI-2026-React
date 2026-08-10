@@ -1,0 +1,14 @@
+var name = prompt("What is your name?");
+var telephone = prompt("What is your telephone number?");
+var mobile = prompt("What is your mobile number?");
+var email = prompt("What is your email address?");
+var address = prompt("What is your address?");
+var color = prompt("What is your favorite color?");
+var today = new Date("Sep 29, 2020");
+document.writeln("<p style=color:" + color + ";>welcome dear guest " + " " + "<span style=color:black>" + name + "</span>" + "</p>");
+document.writeln("<p style=color:" + color + ";>Telephone: " + " " + "<span style=color:black>" + telephone + "</span>" + "</p>");
+document.writeln("<p style=color:" + color + ";>Mobile: " + " " + "<span style=color:black>" + mobile + "</span>" + "</p>");
+document.writeln("<p style=color:" + color + ";>Email: " + " " + "<span style=color:black>" + email + "</span>" + "</p>");
+document.writeln("<p style=color:" + color + ";>Address: " + " " + "<span style=color:black>" + address + "</span>" + "</p>");
+document.write("<br><br>");
+document.writeln("<p><b><span style='color:" + color + ";'>today is </span></b>" + today.toDateString() + "</p>");

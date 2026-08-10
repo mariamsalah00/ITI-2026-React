@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task1</title>
+    <style>
+        @keyframes move{
+            0%{
+                top:0;
+                left:0;
+                background-color: yellow;
+            }
+            25%{
+                top:0;
+                left: 400px;
+                background-color: red;
+            }
+            50%{
+				background-color: green;
+				top: 400px;
+				left: 400px;
+			}
+			75%{
+				background-color: blue;
+				top: 400px;
+				left: 0;
+			}
+			100%{
+				background-color: yellow;
+				top: 0;
+				left: 0;	
+			}
+        }
+        .animation{
+            animation: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+			position: relative;
+			transition: all 3s;
+        }
+      
+        section{
+            margin-top: 2em;
+            width: 100px;
+            height: 100px;
+            border:black solid 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="start">start</button>
+    <button class="stop">stop</button>
+    <section></section>
+    <script>
+        const sec = document.getElementsByTagName("section")[0];
+
+        const startBtn = document.getElementsByClassName("start")[0];
+        const stopBtn = document.getElementsByClassName("stop")[0];
+
+        startBtn.onclick = function () {
+            sec.classList.add("animation");
+        };
+
+        stopBtn.onclick = function () {
+            sec.classList.remove("animation");
+        };
+    </script>
+</body>
+</html>

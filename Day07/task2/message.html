@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Message</title>
+
+    <style>
+        body {
+
+            font-family: Arial;
+            font-size: 18px;
+            padding: 15px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p id="msg"></p>
+
+    <script>
+
+        var Text =
+            "hiiii iam mariam salah after a few seconds this window will terminate...";
+
+        var i = 0;
+
+        function WriteMessage() {
+
+            if (i < Text.length) {
+
+                msg.innerHTML += Text.charAt(i);
+
+                i++;
+
+                setTimeout(WriteMessage, 100);
+
+            }
+            else {
+
+                setTimeout(function () {
+
+                    window.close();
+
+                }, 3000);
+
+            }
+
+        }
+
+        WriteMessage();
+
+    </script>
+
+</body>
+
+</html>
